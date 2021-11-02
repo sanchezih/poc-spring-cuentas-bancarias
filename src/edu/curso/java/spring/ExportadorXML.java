@@ -1,0 +1,11 @@
+package edu.curso.java.spring;
+
+public class ExportadorXML implements Exportador {
+
+	@Override
+	public String exportar(String texto) {
+		// TODO Auto-generated method stub
+		return "Exportando a XML el texto: " + texto;
+	}
+
+}
